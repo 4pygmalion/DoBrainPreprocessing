@@ -1,7 +1,9 @@
 # DoBrain Preprocessing
 
-python3
-```
+#### Usage example
+
+
+``` python3
 conn = pymysql.connect(host='***********', user='********', passwd='**********', db='', port=*******)
 
 pd.read_sql('''SELECT * 
@@ -13,7 +15,7 @@ pd.read_sql('''SELECT *
 
 
 #### mapping new dobrain data to data scheme of old dobrain
-```
+``` python3
 from DoBrain.preprocessing import VersionMapper, GameSelector, DragMapper
 
 # To 2019 version style
