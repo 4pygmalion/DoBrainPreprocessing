@@ -16,7 +16,7 @@ pd.read_sql('''SELECT *
 
 #### mapping new dobrain data to data scheme of old dobrain
 ``` python3
-from DoBrain.preprocessing import VersionMapper, GameSelector, DragMapper
+from DoBrain.preprocessing import VersionMapper
 
 # To 2019 version style
 cols = ['userID', 'level', 'contentIndex', 'questionIndex', 'derivedIndex', 
