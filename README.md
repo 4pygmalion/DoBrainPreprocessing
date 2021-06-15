@@ -1,7 +1,11 @@
 # DoBrain Preprocessing
+Modules that convert new dobrain sturctured data into old dobrain structured data 
+
+#### Requriement
+Json -> Table
+
 
 #### Usage example
-
 
 ``` python3
 conn = pymysql.connect(host='***********', user='********', passwd='**********', db='', port=*******)
